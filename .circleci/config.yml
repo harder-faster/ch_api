@@ -62,7 +62,7 @@ jobs:
             - v1-dependencies-
 
       - run:
-          name: install dependencies
+          name: install dependencies new!
           command: |
             python3 -m venv venv
             . venv/bin/activate
