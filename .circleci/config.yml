@@ -71,7 +71,7 @@ jobs:
       - save_cache:
           paths:
             - ./venv
-          key: v1-dependencies-{{ checksum "requirements.txt" }}
+          key: v1-dependencies-{{ checksum "pollsapi/requirements.txt" }}
 
       - run:
           name: run tests
