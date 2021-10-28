@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - images: circleci/python:3.6.1
+      - images: circleci/python:3.8
 
     working_directory: ~/repo
 
