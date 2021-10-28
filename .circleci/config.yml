@@ -82,7 +82,7 @@ jobs:
             . venv/bin/activate
             pip install -r pollsapi/requirements.txt
       - run:
-          name: run migrate
+          name: run migrate 
           command: |
             . venv/bin/activate
             cd pollsapi
